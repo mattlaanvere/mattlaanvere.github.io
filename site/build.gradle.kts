@@ -1,4 +1,6 @@
 import com.varabyte.kobweb.gradle.application.util.configAsKobwebApplication
+import kotlinx.html.link
+import kotlinx.html.script
 
 plugins {
     alias(libs.plugins.kotlin.multiplatform)
@@ -14,6 +16,18 @@ kobweb {
     app {
         index {
             description.set("Matt Laanvere")
+            head.add {
+                link(rel = "preconnect", href = "https://fonts.googleapis.com")
+                link(rel = "preconnect", href = "https://fonts.gstatic.com")
+                link(
+                    rel = "stylesheet",
+                    href = "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Playfair+Display:wght@400;600;700&display=swap"
+                )
+                script(src = "https://plausible.io/js/script.js") {
+                    defer = true
+                    attributes["data-domain"] = "mattlaanvere.github.io"
+                }
+            }
         }
     }
 }
