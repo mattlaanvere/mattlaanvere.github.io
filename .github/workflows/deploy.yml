@@ -42,7 +42,7 @@ jobs:
 
       - name: Export site
         working-directory: site
-        run: kobweb export --layout static
+        run: kobweb export --layout static --notty
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
