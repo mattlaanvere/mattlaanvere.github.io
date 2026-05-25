@@ -1,0 +1,1 @@
+- [Personal site project](memory/project_personal_site.md) — what mattlaanvere.github.io is, its deploy pipeline, and how much template content remains

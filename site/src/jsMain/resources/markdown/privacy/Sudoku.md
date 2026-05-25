@@ -3,66 +3,70 @@ layout: .components.layouts.MarkdownLayout
 title: Privacy Policy — Sudoku
 ---
 
-# Privacy Policy — Sudoku
+# Sudoku Privacy Policy
 
-*Last updated: April 6, 2026*
+**Last Updated:** May 24, 2026
 
----
+This Sudoku app is built and maintained by an independent developer. It contains
+no ads, no third-party SDKs beyond Google Firebase, and does not require an account.
+This policy describes the limited data the app collects and how it is used.
 
-## Overview
+## What the app collects
 
-This privacy policy describes how Sudoku collects and uses information.
+The app uses **Google Firebase** to understand how the app is used and to keep it
+stable. Three Firebase products are enabled:
 
----
+1. **Firebase Analytics — anonymized usage events.**
+   The app records events such as which screen you are viewing, when a game starts
+   or finishes, the difficulty of that game, and which settings you toggle. Events
+   never include the contents of your puzzle, your inputs, or any free-text data.
+   Firebase Analytics may use Google's advertising identifier on your device for
+   internal analytics attribution; this app does not show ads, does not perform
+   any ad targeting, and does not share data with advertising networks.
 
-## Data Collected Automatically
+2. **Firebase Crashlytics — anonymized crash diagnostics.**
+   If the app crashes, a diagnostic report is sent to Crashlytics so the bug can
+   be fixed. Reports include stack traces and device/OS information provided by
+   Crashlytics by default. To help reproduce puzzle-specific bugs, crash reports
+   may also include a non-personal identifier derived from the puzzle you were
+   playing — this identifier is tied to the puzzle and not to you or your device.
 
-Sudoku uses **Google Firebase** to collect the following data automatically:
+3. **Firebase Performance Monitoring — anonymized timing data.**
+   The app records how long key operations take (for example, generating a new
+   puzzle or saving game state). Only operation names and durations are recorded.
 
-### Analytics (Firebase Analytics)
+Analytics and performance data are disabled entirely in development builds and
+are only sent from the released app on the Google Play Store.
 
-The app records anonymized usage events to help inform better product decisions based on how users interact with the app. Firebase Analytics also uses your device's **Advertising ID** (`AD_ID`) for analytics attribution. No names, email addresses, or other personally identifiable information are collected.
+## What stays on your device
 
-### Crash Reporting (Firebase Crashlytics)
+Your game progress, puzzle history, theme, and gameplay preferences (highlighting,
+hints, etc.) are stored locally on your device and never uploaded. Uninstalling
+the app deletes all of this data.
 
-If the app crashes, a crash report is sent to Firebase Crashlytics to help identify and fix issues. No personal information is included.
+## Third parties
 
-### Performance Monitoring (Firebase Performance)
+The app shares data only with Google LLC through Firebase, under
+[Google's Privacy Policy](https://policies.google.com/privacy). No data is sold
+or shared with any other third party.
 
-Firebase Performance Monitoring collects performance traces to help identify slowdowns. No personal information is included.
+## Accounts
 
----
+The app does not require or support accounts, sign-in, or any form of user
+registration.
 
-## Data Stored on Your Device
+## Children
 
-The app stores game progress and settings locally on your device. This data is never transmitted and is deleted when you uninstall the app.
+The app does not knowingly collect personal information from anyone, including
+children under 13. If you believe a child has provided personal information,
+please contact me and I will remove it.
 
----
+## Changes to this policy
 
-## Data Sharing
-
-No data is sold or shared with third parties. Analytics, crash, and performance data is sent to Google LLC via Firebase under [Google's Privacy Policy](https://policies.google.com/privacy).
-
----
-
-## Account and Login
-
-Sudoku does not require or support accounts or login.
-
----
-
-## Children's Privacy
-
-The app does not knowingly collect personal information from anyone, including children under 13.
-
----
-
-## Changes to This Policy
-
-If this policy changes, the updated version will be posted at this URL with a revised "Last updated" date.
-
----
+I may update this policy from time to time. The "Last Updated" date at the top
+of this page will reflect the most recent revision. Material changes will be
+announced through the app's release notes on the Google Play Store.
 
 ## Contact
 
-Questions? Email me at [mattpflancedev@gmail.com](mailto:mattpflancedev@gmail.com).
+Privacy questions can be sent to **mattpflancedev@gmail.com**.
