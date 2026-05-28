@@ -69,4 +69,4 @@ announced through the app's release notes on the Google Play Store.
 
 ## Contact
 
-Privacy questions can be sent to **mattpflancedev@gmail.com**.
+Privacy questions can be sent to **mattlaanvere.dev@gmail.com**.
